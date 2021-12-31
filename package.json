@@ -1,0 +1,24 @@
+{
+  "name": "playwrighttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runtest":"npx playwright test",
+    "runreport":"npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AZANIR/PlaywrightTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AZANIR/PlaywrightTest/issues"
+  },
+  "homepage": "https://github.com/AZANIR/PlaywrightTest#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.17.1"
+  }
+}

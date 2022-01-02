@@ -1,48 +1,48 @@
-<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="10.737">
-<testsuite name="example.spec.ts" timestamp="1641057782965" hostname="" tests="2" failures="0" skipped="0" time="6.533" errors="0">
-<testcase name="two tests basic test" classname="[chromium] › example.spec.ts:12:3 › two tests › basic test" time="2.923">
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="11.493">
+<testsuite name="example.spec.ts" timestamp="1641130135340" hostname="" tests="2" failures="0" skipped="0" time="8.033" errors="0">
+<testcase name="two tests basic test" classname="[chromium] › example.spec.ts:12:3 › two tests › basic test" time="4.716">
 <system-out>
 
-[[ATTACHMENT|..\test-results\example-two-tests-basic-test-chromium\fc691215a8567a1e15050466f2faaafc.webm]]
+[[ATTACHMENT|..\test-results\example-two-tests-basic-test-chromium\f5f643e591fb937ddfabde0beafa0fa2.webm]]
 
 </system-out>
 </testcase>
-<testcase name="two tests test" classname="[chromium] › example.spec.ts:18:3 › two tests › test" time="3.61">
+<testcase name="two tests test" classname="[chromium] › example.spec.ts:18:3 › two tests › test" time="3.317">
 <system-out>
 
-[[ATTACHMENT|..\test-results\example-two-tests-test-chromium\413894b82659c6241597a56ab21f3ecc.webm]]
-
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="example.spec.ts" timestamp="1641057782965" hostname="" tests="2" failures="0" skipped="0" time="8.502" errors="0">
-<testcase name="two tests basic test" classname="[firefox] › example.spec.ts:12:3 › two tests › basic test" time="4.092">
-<system-out>
-
-[[ATTACHMENT|..\test-results\example-two-tests-basic-test-firefox\b10544a0-d077-4bd5-8a88-009aa4412e3c.webm]]
-
-</system-out>
-</testcase>
-<testcase name="two tests test" classname="[firefox] › example.spec.ts:18:3 › two tests › test" time="4.41">
-<system-out>
-
-[[ATTACHMENT|..\test-results\example-two-tests-test-firefox\f7626277-68cd-46d9-b2bb-e43e89f05d84.webm]]
+[[ATTACHMENT|..\test-results\example-two-tests-test-chromium\38c221663feecab2bec10a0a9de21d38.webm]]
 
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="example.spec.ts" timestamp="1641057782965" hostname="" tests="2" failures="0" skipped="0" time="9.278" errors="0">
-<testcase name="two tests basic test" classname="[webkit] › example.spec.ts:12:3 › two tests › basic test" time="4.164">
+<testsuite name="example.spec.ts" timestamp="1641130135340" hostname="" tests="2" failures="0" skipped="0" time="9.06" errors="0">
+<testcase name="two tests basic test" classname="[firefox] › example.spec.ts:12:3 › two tests › basic test" time="4.931">
 <system-out>
 
-[[ATTACHMENT|..\test-results\example-two-tests-basic-test-webkit\9c1bd87cc4b4298aeebf6df2fded671d.webm]]
+[[ATTACHMENT|..\test-results\example-two-tests-basic-test-firefox\fb605c2c-e43b-4211-bcc0-93bd5636d408.webm]]
 
 </system-out>
 </testcase>
-<testcase name="two tests test" classname="[webkit] › example.spec.ts:18:3 › two tests › test" time="5.114">
+<testcase name="two tests test" classname="[firefox] › example.spec.ts:18:3 › two tests › test" time="4.129">
 <system-out>
 
-[[ATTACHMENT|..\test-results\example-two-tests-test-webkit\20284411da410b2d57efd5cf5c848e3e.webm]]
+[[ATTACHMENT|..\test-results\example-two-tests-test-firefox\0efff22f-c9ff-494a-abc5-987d09f8c24e.webm]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="1641130135340" hostname="" tests="2" failures="0" skipped="0" time="10.099" errors="0">
+<testcase name="two tests basic test" classname="[webkit] › example.spec.ts:12:3 › two tests › basic test" time="5.304">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-two-tests-basic-test-webkit\3b4dfcc5d45028f1849017e99cdb0262.webm]]
+
+</system-out>
+</testcase>
+<testcase name="two tests test" classname="[webkit] › example.spec.ts:18:3 › two tests › test" time="4.795">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-two-tests-test-webkit\d2b9c412664f70d951a1698b908fdcfb.webm]]
 
 </system-out>
 </testcase>

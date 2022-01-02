@@ -1,0 +1,116 @@
+{
+  "chromium example.spec.ts two tests basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c45e82573417ff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641130135981,
+        "stop" : 1641130140697,
+        "duration" : 4716
+      }
+    } ]
+  },
+  "chromium example.spec.ts two tests test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "379202451733c65e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641130140697,
+        "stop" : 1641130144014,
+        "duration" : 3317
+      }
+    } ]
+  },
+  "webkit example.spec.ts two tests basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7bef0ba61b71eafa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641130136243,
+        "stop" : 1641130141547,
+        "duration" : 5304
+      }
+    } ]
+  },
+  "firefox example.spec.ts two tests basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8870971f12f05cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641130136115,
+        "stop" : 1641130141046,
+        "duration" : 4931
+      }
+    } ]
+  },
+  "firefox example.spec.ts two tests test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ba413c3dbf78988",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641130141047,
+        "stop" : 1641130145176,
+        "duration" : 4129
+      }
+    } ]
+  },
+  "webkit example.spec.ts two tests test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cdc2312603c0cc17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641130141547,
+        "stop" : 1641130146342,
+        "duration" : 4795
+      }
+    } ]
+  }
+}

@@ -29,7 +29,14 @@ const config: PlaywrightTestConfig = {
   workers: process.env.CI ? 1 : undefined,
 
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  //reporter: 'html',
+  reporter:[
+    ['junit',{outputFile: 'junit.xml'}],
+    ['html',{open: 'never'}],
+    ['allure-playwright'],
+    ['list'],
+  ],
+  //npm i -D @playwright/test allure-playwright
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -41,7 +48,9 @@ const config: PlaywrightTestConfig = {
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
+    screenshot: 'only-on-failure',
+    //viewport: {width:1280, height: 720}
   },
 
   /* Configure projects for major browsers */

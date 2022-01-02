@@ -1,0 +1,50 @@
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="10.737">
+<testsuite name="example.spec.ts" timestamp="1641057782965" hostname="" tests="2" failures="0" skipped="0" time="6.533" errors="0">
+<testcase name="two tests basic test" classname="[chromium] › example.spec.ts:12:3 › two tests › basic test" time="2.923">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-two-tests-basic-test-chromium\fc691215a8567a1e15050466f2faaafc.webm]]
+
+</system-out>
+</testcase>
+<testcase name="two tests test" classname="[chromium] › example.spec.ts:18:3 › two tests › test" time="3.61">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-two-tests-test-chromium\413894b82659c6241597a56ab21f3ecc.webm]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="1641057782965" hostname="" tests="2" failures="0" skipped="0" time="8.502" errors="0">
+<testcase name="two tests basic test" classname="[firefox] › example.spec.ts:12:3 › two tests › basic test" time="4.092">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-two-tests-basic-test-firefox\b10544a0-d077-4bd5-8a88-009aa4412e3c.webm]]
+
+</system-out>
+</testcase>
+<testcase name="two tests test" classname="[firefox] › example.spec.ts:18:3 › two tests › test" time="4.41">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-two-tests-test-firefox\f7626277-68cd-46d9-b2bb-e43e89f05d84.webm]]
+
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="1641057782965" hostname="" tests="2" failures="0" skipped="0" time="9.278" errors="0">
+<testcase name="two tests basic test" classname="[webkit] › example.spec.ts:12:3 › two tests › basic test" time="4.164">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-two-tests-basic-test-webkit\9c1bd87cc4b4298aeebf6df2fded671d.webm]]
+
+</system-out>
+</testcase>
+<testcase name="two tests test" classname="[webkit] › example.spec.ts:18:3 › two tests › test" time="5.114">
+<system-out>
+
+[[ATTACHMENT|..\test-results\example-two-tests-test-webkit\20284411da410b2d57efd5cf5c848e3e.webm]]
+
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Jan 02 15:29:01 EET 2022","Sun Jan 02 15:29:05 EET 2022","4129","firefox","example.spec.ts","two tests","","","test",""
-"passed","Sun Jan 02 15:28:55 EET 2022","Sun Jan 02 15:29:00 EET 2022","4716","chromium","example.spec.ts","two tests","","","basic test",""
-"passed","Sun Jan 02 15:28:56 EET 2022","Sun Jan 02 15:29:01 EET 2022","4931","firefox","example.spec.ts","two tests","","","basic test",""
-"passed","Sun Jan 02 15:29:01 EET 2022","Sun Jan 02 15:29:06 EET 2022","4795","webkit","example.spec.ts","two tests","","","test",""
-"passed","Sun Jan 02 15:28:56 EET 2022","Sun Jan 02 15:29:01 EET 2022","5304","webkit","example.spec.ts","two tests","","","basic test",""
-"passed","Sun Jan 02 15:29:00 EET 2022","Sun Jan 02 15:29:04 EET 2022","3317","chromium","example.spec.ts","two tests","","","test",""

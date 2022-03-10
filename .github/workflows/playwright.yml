@@ -22,7 +22,7 @@ jobs:
       # trying to install npm packages
     - run: npm i -g npm@latest
     - run: npm i npm@latest
-    - run: npm сi
+    - run: npm i
     - run: npx playwright install 
     - name: run test
       # trying to run tests

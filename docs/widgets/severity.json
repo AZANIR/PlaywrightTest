@@ -1,0 +1,21 @@
+[ {
+  "uid" : "327f4bb722584844",
+  "name" : "test",
+  "time" : {
+    "start" : 1655289225424,
+    "stop" : 1655289229075,
+    "duration" : 3651
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "773d65a42f1c0b1c",
+  "name" : "basic test",
+  "time" : {
+    "start" : 1655289223710,
+    "stop" : 1655289225423,
+    "duration" : 1713
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

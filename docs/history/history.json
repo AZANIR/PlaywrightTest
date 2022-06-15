@@ -1,0 +1,40 @@
+{
+  "chromium example.spec.ts two tests basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "773d65a42f1c0b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655289223710,
+        "stop" : 1655289225423,
+        "duration" : 1713
+      }
+    } ]
+  },
+  "chromium example.spec.ts two tests test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "327f4bb722584844",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655289225424,
+        "stop" : 1655289229075,
+        "duration" : 3651
+      }
+    } ]
+  }
+}

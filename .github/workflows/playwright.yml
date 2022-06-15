@@ -1,71 +1,66 @@
 name: Playwright Tests
 on:
-  push:
-    branches: [ master ]
-  # pull_request:
-  #   branches: [ master ]
+    push:
+        branches: [master]
+    # pull_request:
+    #   branches: [ master ]
 
 jobs:
-  Run_test:
-    runs-on: ubuntu-20.04 # Choosing OS
-    strategy:
-      matrix:
-        node-version: [14.17.0]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-      # trying to install npm packages
-    - run: npm i -g npm@latest
-    - run: npm i npm@latest
-    - run: npm i
-    - run: npm install allure-commandline --save-dev
-    - run: npx playwright install 
-    - name: run test
-      # trying to run tests
-      run: npx playwright test
-    - name: Copy backupHistory
-      if: always()
-      # trying to save history screens and info of previous runs if it is exists
-      run: cp -r ./docs/backupHistory/. ./allure-results
-    - name: Create Report
-      if: always()
-      # trying to save history of previous runs if it is exists
-      run: cp -r ./docs/history/. ./allure-results/history || true && npm run allure:generate
-    - name: Create bacup directory
-      if: always()
-      # trying to create backup directory
-      run: mkdir allure-report/backupHistory 
-    - name: Backup history tests
-      if: always()
-      # trying to backup screens and info test
-      run: cp -r ./allure-results/*.* ./allure-report/backupHistory
-    - name: Display structure of backup history files
-      if: always()
-      run: ls -R
-      working-directory: allure-report/backupHistory
-    - name: Upload artifact allure-report
-      uses: actions/upload-artifact@v1
-      if: always()
-      with:
-        name: allure-report
-        path: ./allure-report
-    - name: Deploy report
-      uses: JamesIves/github-pages-deploy-action@3.1.0
-      if: always()
-      with:
-        ACCESS_TOKEN: ${{'secrets.ACCESS_TOKEN'}}
-        BRANCH: master # The branch the action should deploy to.
-        FOLDER: allure-report # The folder the action should deploy.
-        TARGET_FOLDER: docs
-
-
-
-
+    Run_test:
+        runs-on: ubuntu-20.04 # Choosing OS
+        strategy:
+            matrix:
+                node-version: [14.17.0]
+                # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        steps:
+            - uses: actions/checkout@v2
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v2
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  cache: "npm"
+              # trying to install npm packages
+            - run: npm i -g npm@latest
+            - run: npm i
+            - run: npm install allure-commandline --save-dev
+            - run: npx playwright install --with-deps
+            - name: run test
+              # trying to run tests
+              run: npx playwright test
+            - name: Copy backupHistory
+              if: always()
+              # trying to save history screens and info of previous runs if it is exists
+              run: cp -r ./docs/backupHistory/. ./allure-results
+            - name: Create Report
+              if: always()
+              # trying to save history of previous runs if it is exists
+              run: cp -r ./docs/history/. ./allure-results/history || true && npm run allure:generate
+            - name: Create bacup directory
+              if: always()
+              # trying to create backup directory
+              run: mkdir allure-report/backupHistory
+            - name: Backup history tests
+              if: always()
+              # trying to backup screens and info test
+              run: cp -r ./allure-results/*.* ./allure-report/backupHistory
+            - name: Display structure of backup history files
+              if: always()
+              run: ls -R
+              working-directory: allure-report/backupHistory
+            - name: Upload artifact allure-report
+              uses: actions/upload-artifact@v1
+              if: always()
+              with:
+                  name: allure-report
+                  path: ./allure-report
+            - name: Deploy report
+              uses: JamesIves/github-pages-deploy-action@3.1.0
+              if: always()
+              with:
+                  ACCESS_TOKEN: ${{'secrets.ACCESS_TOKEN'}}
+                  BRANCH: master # The branch the action should deploy to.
+                  FOLDER: allure-report # The folder the action should deploy.
+                  TARGET_FOLDER: docs
 # on:
 #   push:
 #     branches: [ main, master ]
